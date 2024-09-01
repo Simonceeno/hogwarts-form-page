@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hogwarts form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet-form-page.css">
+    </head>
+    <body>
+        <div class="container">
+            <section class="header">
+                <h1>Hogwarts Magic School registration form</h1>
+                <p class="header__p">Nemo magister natus</p>
+            </section>
+            <section class="wrapper">
+                <h3>Your personal data</h3>
+                <div class="wrapper__name">
+                    <form>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" placeholder="Albus">
+                    </form>
+                </div>
+                <div class="wrapper__surname">
+                    <form>
+                        <label for="surname">Surname:</label><br>
+                        <input type="text" id="surname" name="surname" placeholder="Dumbledore">
+                    </form>
+                </div>
+                <div class="wrapper__email">
+                    <form>
+                        <label for="mail">Email</label><br>
+                        <input type="email" id="mail" name="email" placeholder="wizardname@hwschool.com">
+                    </form>
+                </div>
+                <div class="wrapper__age">
+                    <form>
+                        <label for="date">Birth date</label><br>
+                        <input type="date" id="date" name="date">
+                    </form>
+                </div>
+                <div class="wrapper__house">
+                    <form>
+                        <label for="house">House</label><br>
+                        <select id="house" name="house">
+                            <option value="">Choose your house</option>
+                            <option value="Gryffindor">Gryffindor</option>
+                            <option value="Ravenclaw">Ravenclaw</option>
+                            <option value="Hufflepuff">Hufflepuff</option>
+                            <option value="Slytherin">Slytherin</option>
+                        </select>
+                    </form>
+                </div>
+                <h3>Select your magic animal</h3>
+                <div class="wrapper__animal">
+                    <input type="radio" id="animal1" name="animal" value="owl">
+                    <label for="animal1">Owl</label><br>
+                    <input type="radio" id="animal2" name="animal" value="unicorn">
+                    <label for="animal2">Unicorn</label><br>
+                    <input type="radio" id="animal3" name="animal" value="snuggle">
+                    <label for="animal3">Snuggle</label><br>
+                    <input type="radio" id="animal4" name="animal" value="hippogryph">
+                    <label for="animal4">Hippogryph</label><br>
+                </div>
+                <h3>Select all the courses already attended</h3>
+                <div class="wrapper__courses">
+                    <input type="checkbox" id="course1" name="course1" value="potions">
+                    <label for="course1">Potions</label><br>
+                    <input type="checkbox" id="course2" name="course2" value="astronomy">
+                    <label for="course2">Astronomy</label><br>
+                    <input type="checkbox" id="course3" name="course3" value="">
+                    <label for="course3">Defense against the obscure arts</label><br>
+                    <input type="checkbox" id="course4" name="course4" value="transfiguration">
+                    <label for="course4">Transfiguration</label><br>
+                    <input type="checkbox" id="course5" name="course5" value="herbology">
+                    <label for="course5">Herbology</label><br>
+                    <input type="checkbox" id="course6" name="course6" value="alchemy">
+                    <label for="course6">Alchemy</label><br>
+                    <input type="checkbox" id="course7" name="course7" value="apparition">
+                    <label for="course7">Apparition</label><br>
+                    <input type="checkbox" id="course8" name="course8" value="flying">
+                    <label for="course8">Flying</label><br>
+                </div>
+                <h3>Other preferences</h3>
+                <div class="wrapper__relocation">
+                    <form>
+                        <label for="relocation">Favorite relocation method</label><br>
+                        <select id="relocation" name="relocation">
+                            <option value="">Choose your method</option>
+                            <option value="Broomstick">Broomstick</option>
+                            <option value="powder">Floo powder</option>
+                            <option value="car">Flying car</option>
+                            <option value="train">Magical train</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="wrapper__note">
+                    <label for="comment-area">Comments or notes</label><br>
+                    <textarea id="comment-area" name="comment-area" rows="10" col="30" style="width: 480px; height: 160px;"></textarea>
+                </div>
+                <form action="" method="get" target="_blank">
+                    <label for="submit"></label><br>
+                    <input class="sub-button" type="submit" value="Apply">
+                </form>
+            </section>
+        </div>
+    </body>
+</html>
