@@ -66,6 +66,7 @@ h3{
     border:3px solid var(--sand);
     margin: 20px auto 50px auto;
     width: 600px;
+    color: var(--white);
 }
 
 .wrapper div{
@@ -78,7 +79,7 @@ margin-bottom: 5px;
 
 .container, input{
     font-size: 1.1rem;
-    color: var(--white);
+    color: var(--black)
 }
 
 select{
@@ -90,7 +91,12 @@ select{
 }
 
 form{
+    color: var(--white);
     width: 100%;
+}
+
+.wrapper__note__label{
+    color: var(--white);
 }
 
 /* Media queries */

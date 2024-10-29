@@ -16,24 +16,24 @@
                 <h3>Your personal data</h3><br>
                 <form>
                     <div class="wrapper__name">
-                            <label for="name">Name:</label><br>
-                            <input type="text" id="name" name="name" placeholder="Albus">
+                            <label for="name">* Name:</label><br>
+                            <input type="text" id="name" name="name" placeholder="Albus" minlength="3" required>
                     </div>
                     <div class="wrapper__surname">
-                            <label for="surname">Surname:</label><br>
-                            <input type="text" id="surname" name="surname" placeholder="Dumbledore">
+                            <label for="surname">* Surname:</label><br>
+                            <input type="text" id="surname" name="surname" placeholder="Dumbledore" minlength="4" required>
                     </div>
                     <div class="wrapper__email">
-                            <label for="mail">Email</label><br>
-                            <input type="email" id="mail" name="email" placeholder="wizardname@hwschool.com">
+                            <label for="mail">* Email</label><br>
+                            <input type="email" id="mail" name="email" placeholder="wizardname@hwschool.com" required>
                     </div>
                     <div class="wrapper__age">
-                            <label for="date">Birth date</label><br>
-                            <input type="date" id="date" name="date">
+                            <label for="date">* Birth date</label><br>
+                            <input type="date" id="date" name="date" required>
                     </div>
                     <div class="wrapper__house">
-                            <label for="house">House</label><br>
-                            <select id="house" name="house">
+                            <label for="house">* House</label><br>
+                            <select id="house" name="house" required>
                                 <option value="">Choose your house</option>
                                 <option value="Gryffindor">Gryffindor</option>
                                 <option value="Ravenclaw">Ravenclaw</option>
@@ -84,10 +84,10 @@
                     </div>
                 </form>
                 <div class="wrapper__note">
-                    <label for="comment-area">Comments or notes</label><br>
+                    <label class=wrapper__note__label for="comment-area">Comments or notes</label><br>
                     <textarea id="comment-area" name="comment-area" rows="5" col="30" width="100%" height="160px"></textarea>
                 </div>
-                <form action="" method="get" target="_blank">
+                <form action="" method="get" target="">
                     <label for="submit"></label><br>
                     <input class="sub-button" type="submit" value="Apply">
                 </form>
