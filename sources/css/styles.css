@@ -1,0 +1,112 @@
+/* General settings */
+*{
+    box-sizing: content-box;
+    --beige: rgba(251, 243, 217, 0.8);
+    --grey: rgba(128, 128, 128, 0.479);
+    --sand: rgba(255, 226, 182, 0.8);
+    --white: rgb(248, 248, 248);
+    --dark-grey: rgba(48, 44, 41, 0.911);
+    --black-shadow: rgba(0, 0, 0, 0.671);
+    --black: rgb(0,0,0)
+}
+
+html{
+    font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
+    background-image:url(../images/hogbg.jpg);
+    background-blend-mode: overlay;
+    background-size:cover;
+    background-position: center;
+}
+
+body{
+    margin: 0;
+}
+
+/* Typography */
+h1{
+    font-size: 2.2rem;
+    text-shadow: 1px 1px 10px var(--black-shadow);
+    color: var(--white);
+    margin:0 50px;
+}
+
+h3{
+    font-size: 1.3rem;
+    margin: 1px 0;
+}
+
+.header__p{
+    margin: 30px auto;
+    font-size: 1.3rem;
+    color: var(--white);
+}
+
+/* Elements style */
+.container {
+    width: 100%;
+    margin: 2% auto 0 auto;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 2% 3%;
+    background-color: var(--dark-grey);
+    border-radius: 10px;
+    border:3px solid var(--sand);
+    margin: 20px auto 50px auto;
+    width: 600px;
+}
+
+.wrapper div{
+margin-bottom: 5px;
+}
+
+.wrapper-note{
+    margin-top: 0;
+}
+
+.container, input{
+    font-size: 1.1rem;
+    color: var(--white);
+}
+
+select{
+    font-size: 1.1rem;
+}
+
+.sub-button{
+    color: var(--black);
+}
+
+form{
+    width: 100%;
+}
+
+/* Media queries */
+
+@media screen AND (max-width: 700px){
+    .wrapper{
+        width:400px;
+        justify-content: left;
+        align-items:flex-start;
+    }
+}
+
+@media screen AND (max-width: 500px){
+    .wrapper{
+        width:300px;
+        justify-content: left;
+        align-items:flex-start;
+    }
+}
