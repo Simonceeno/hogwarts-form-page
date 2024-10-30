@@ -7,7 +7,7 @@ The form won't submit anything, it's just a demo.
 
 Go visit the preview of the project here:
 
-**https://simonceeno.github.io/hogwarts-form-page**
+**[Hogwarts form](http://https://simonceeno.github.io/hogwarts-form-page "Hogwarts form")**
 
 **ENJOY!**
 
